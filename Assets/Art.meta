@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Art.meta
 guid: 7a9bc2cb400e05d46b0eeead7803391c
 folderAsset: yes
 timeCreated: 1511877552
+=======
+guid: 31e03740250af4a2cb971622adcdcc0f
+folderAsset: yes
+timeCreated: 1511781054
+>>>>>>> aa9810b4bd5ddc88b5856055222f3ff5e54e97b8:Assets/Art.meta
 licenseType: Free
 DefaultImporter:
   userData: 
