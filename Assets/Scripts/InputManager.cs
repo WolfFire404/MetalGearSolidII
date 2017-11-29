@@ -11,7 +11,8 @@ public class InputManager : MonoBehaviour {
 	void Update () 
 	{
 		InputListen();
-		transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.LookRotation(transform.position - prevLoc), Time.fixedDeltaTime * lookSpeed);
+		if(curLoc != prevLoc)
+			transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.LookRotation(transform.position - prevLoc), Time.fixedDeltaTime * lookSpeed);
 	}
 
 	private void InputListen()
