@@ -30,6 +30,5 @@ public class InputManager : MonoBehaviour {
 			curLoc.z -= 1 * Time.fixedDeltaTime * moveSpeed;
 
 		transform.position = curLoc;
-
 	}
 }
