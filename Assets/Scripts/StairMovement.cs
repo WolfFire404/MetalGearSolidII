@@ -24,16 +24,20 @@ public class StairMovement : MonoBehaviour {
                 }
             }
         }
+    }
 
-        if (other.transform.tag == "stairDown")
+
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.name == "Stairs")
         {
             Debug.Log("touching stairs");
             if (Input.GetKeyDown(KeyCode.S))
             {
                 Debug.Log("apply gravity");
                 //if (Vector3.Angle(rigidbody.velocity, other.transform.forward) < 90)
-               // {
-                    rigidbody.AddForce(0, -90, 0);
+                // {
+                rigidbody.AddForce(0, -90, 0);
                 //}
             }
         }
