@@ -16,7 +16,7 @@ public class BlackBars : MonoBehaviour
     {
         var direction = player.transform.position - prevloc;
         direction = new Vector3(direction.x, direction.z, 0);
-        transform.position += direction * 2;
+        transform.position += direction / 2;
         prevloc = player.transform.position;
     }
 }

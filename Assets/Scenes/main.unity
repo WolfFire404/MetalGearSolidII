@@ -640,6 +640,7 @@ GameObject:
   - component: {fileID: 340529506}
   - component: {fileID: 340529508}
   - component: {fileID: 340529507}
+  - component: {fileID: 340529509}
   m_Layer: 0
   m_Name: MinimapPlayer
   m_TagString: Untagged
@@ -655,7 +656,7 @@ Transform:
   m_GameObject: {fileID: 340529505}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 112.9, y: 338.3, z: -393.577}
-  m_LocalScale: {x: 15, y: 15, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 1850609331}
   m_RootOrder: 3
@@ -713,6 +714,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &340529509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 340529505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778e63811445443cdbba439880387088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &380145024
 Prefab:
   m_ObjectHideFlags: 0
@@ -1347,7 +1359,7 @@ Transform:
   m_GameObject: {fileID: 1019423085}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 109.92615, y: 337.64233, z: -382.41727}
-  m_LocalScale: {x: 6, y: 1, z: 6}
+  m_LocalScale: {x: 200, y: 1, z: 2000}
   m_Children: []
   m_Father: {fileID: 1850609331}
   m_RootOrder: 1
@@ -3250,8 +3262,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2078949693}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 90.5, y: 332, z: -400.9}
-  m_LocalScale: {x: 12, y: 14.4, z: 5}
+  m_LocalPosition: {x: 97.8, y: 335.7, z: -400.9}
+  m_LocalScale: {x: 8, y: 8, z: 5}
   m_Children: []
   m_Father: {fileID: 1850609331}
   m_RootOrder: 4
