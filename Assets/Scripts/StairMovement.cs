@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class StairMovement : MonoBehaviour {
 
-    private Rigidbody rigidbody;    
+    private Rigidbody rb;    
 
 	// Use this for initialization
 	void Start () {
-        rigidbody = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
 	}
 
     void OnTriggerStay(Collider other)
     {
         if (other.transform.tag == "StairUp")
         {
-            if (Vector3.Angle(rigidbody.velocity, other.transform.forward) < 90)
+            if (Vector3.Angle(rb.velocity, other.transform.forward) < 90)
             {
-                if (rigidbody.velocity.y > 0)
+                if (rb.velocity.y > 0)
                 {
-                    float ypos = rigidbody.velocity.y;
+                    float ypos = rb.velocity.y;
                     ypos = 0;
                 }
             }
@@ -33,7 +33,7 @@ public class StairMovement : MonoBehaviour {
                 Debug.Log("apply gravity");
                 //if (Vector3.Angle(rigidbody.velocity, other.transform.forward) < 90)
                // {
-                    rigidbody.AddForce(0, -90, 0);
+                    rb.AddForce(0, -90, 0);
                 //}
             }
         }
