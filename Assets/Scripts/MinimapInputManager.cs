@@ -19,6 +19,7 @@ public class MinimapInputManager : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 0, -player.eulerAngles.y);
         }
         var direction = player.transform.position - prevloc;
+        direction = new Vector3(direction.x, direction.z, 0);   
         transform.position += direction;
         prevloc = player.transform.position;
     }
