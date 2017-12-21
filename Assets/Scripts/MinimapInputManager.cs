@@ -3,33 +3,23 @@ using System.Collections;
 
 public class MinimapInputManager : MonoBehaviour
 {
+    private Vector3 prevloc;
+    Transform player;
 
-    public float lookSpeed = 10;
-    public float moveSpeed;
-    private Vector3 curLoc;
-    private Vector3 prevLoc;
+    private void Start()
+    {
+        player = GameObject.Find("Player").transform;
+        prevloc = player.transform.position;
+    }
 
     void Update()
     {
-        InputListen();
-        if (curLoc != prevLoc)
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(transform.position - prevLoc), Time.fixedDeltaTime * lookSpeed);
-    }
-
-    private void InputListen()
-    {
-        prevLoc = curLoc;
-        curLoc = transform.position;
-
-        if (Input.GetKey(KeyCode.A))
-            curLoc.z -= 1 * Time.fixedDeltaTime * moveSpeed;
-        if (Input.GetKey(KeyCode.D))
-            curLoc.z += 1 * Time.fixedDeltaTime * moveSpeed;
-        if (Input.GetKey(KeyCode.W))
-            curLoc.y += 1 * Time.fixedDeltaTime * moveSpeed;
-        if (Input.GetKey(KeyCode.S))
-            curLoc.y -= 1 * Time.fixedDeltaTime * moveSpeed;
-
-        transform.position = curLoc;
+        if (player)
+        {
+            transform.eulerAngles = new Vector3(0, 0, -player.eulerAngles.y);
+        }
+        var direction = player.transform.position - prevloc;
+        transform.position += direction;
+        prevloc = player.transform.position;
     }
 }
