@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StairMovement : MonoBehaviour {
+public class StairMovement : MonoBehaviour
+{
 
-    private Rigidbody rb;    
+    private Rigidbody rb;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         rb = GetComponent<Rigidbody>();
-	}
+    }
 
     void OnTriggerStay(Collider other)
     {
@@ -27,15 +29,11 @@ public class StairMovement : MonoBehaviour {
 
         if (other.transform.tag == "stairDown")
         {
-            Debug.Log("touching stairs");
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                Debug.Log("apply gravity");
-                //if (Vector3.Angle(rigidbody.velocity, other.transform.forward) < 90)
-               // {
-                    rb.AddForce(0, -90, 0);
-                //}
-            }
+
+        }
+        else
+        {
+            Physics.gravity = new Vector3(0, -10f * 10f, 0);
         }
     }
 }
