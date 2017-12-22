@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 3e2e76d0fbdf2854e96f81d2055d2d1c
+timeCreated: 1513941759
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Chest
+    100004: Gun
+    100006: Head
+    100008: Head_Tip
+    100010: Hips_Sway
+    100012: ikHandle1
+    100014: ikHandle2
+    100016: Left_Ankle
+    100018: Left_Clavicle
+    100020: Left_Elbow
+    100022: Left_Elbow_Controller
+    100024: Left_Elbow_OS_Controller
+    100026: Left_Hip
+    100028: Left_Knee
+    100030: Left_Knee_Controller
+    100032: Left_Leg_IK_Handle
+    100034: Left_Leg_IK_Handle1
+    100036: Left_Shoulder
+    100038: Left_Shoulder_Controller
+    100040: Left_Shoulder_OS_Controller
+    100042: Left_Toe_Tip
+    100044: Left_Toes
+    100046: Left_Wrist
+    100048: Left_Wrist_Controller
+    100050: Left_wrist_end
+    100052: Left_Wrist_OS_Controller
+    100054: Master
+    100056: Neck
+    100058: pasted__Right_Arm_Controllers
+    100060: pasted__Right_Elbow_Controller
+    100062: pasted__Right_Elbow_OS_controller
+    100064: pasted__Right_Shoulder_Controller
+    100066: pasted__Right_Shoulder_OS_controller
+    100068: pasted__Right_Wrist_Controller
+    100070: pCube1
+    100072: pCube3
+    100074: pCube4
+    100076: pCube5
+    100078: pCylinder1
+    100080: pCylinder2
+    100082: pCylinder2 1
+    100084: Right_Ankle
+    100086: Right_Arm_Controllers
+    100088: Right_Clavicle
+    100090: Right_Elbow
+    100092: Right_Elbow_Controller
+    100094: Right_Elbow_OS_controller
+    100096: Right_Hand
+    100098: Right_Hip
+    100100: Right_Knee
+    100102: Right_Knee_Controller
+    100104: Right_Leg_IK_Handle
+    100106: Right_Leg_IK_Handle 1
+    100108: Right_Shoulder
+    100110: Right_Shoulder_Controller
+    100112: Right_Shoulder_OS_controller
+    100114: Right_Toe_Tip
+    100116: Right_Toes
+    100118: Right_Wrist
+    100120: Right_Wrist_Controller
+    100122: Right_wrist_end
+    100124: Right_Wrist_OS_Controller
+    100126: Solid_snake_lichaam:pCube19
+    100128: Spine_1
+    100130: Spine_2
+    100132: transform1
+    100134: transform2
+    100136: transform3
+    100138: transform4
+    100140: transform5
+    100142: transform6
+    400000: //RootNode
+    400002: Chest
+    400004: Gun
+    400006: Head
+    400008: Head_Tip
+    400010: Hips_Sway
+    400012: ikHandle1
+    400014: ikHandle2
+    400016: Left_Ankle
+    400018: Left_Clavicle
+    400020: Left_Elbow
+    400022: Left_Elbow_Controller
+    400024: Left_Elbow_OS_Controller
+    400026: Left_Hip
+    400028: Left_Knee
+    400030: Left_Knee_Controller
+    400032: Left_Leg_IK_Handle
+    400034: Left_Leg_IK_Handle1
+    400036: Left_Shoulder
+    400038: Left_Shoulder_Controller
+    400040: Left_Shoulder_OS_Controller
+    400042: Left_Toe_Tip
+    400044: Left_Toes
+    400046: Left_Wrist
+    400048: Left_Wrist_Controller
+    400050: Left_wrist_end
+    400052: Left_Wrist_OS_Controller
+    400054: Master
+    400056: Neck
+    400058: pasted__Right_Arm_Controllers
+    400060: pasted__Right_Elbow_Controller
+    400062: pasted__Right_Elbow_OS_controller
+    400064: pasted__Right_Shoulder_Controller
+    400066: pasted__Right_Shoulder_OS_controller
+    400068: pasted__Right_Wrist_Controller
+    400070: pCube1
+    400072: pCube3
+    400074: pCube4
+    400076: pCube5
+    400078: pCylinder1
+    400080: pCylinder2
+    400082: pCylinder2 1
+    400084: Right_Ankle
+    400086: Right_Arm_Controllers
+    400088: Right_Clavicle
+    400090: Right_Elbow
+    400092: Right_Elbow_Controller
+    400094: Right_Elbow_OS_controller
+    400096: Right_Hand
+    400098: Right_Hip
+    400100: Right_Knee
+    400102: Right_Knee_Controller
+    400104: Right_Leg_IK_Handle
+    400106: Right_Leg_IK_Handle 1
+    400108: Right_Shoulder
+    400110: Right_Shoulder_Controller
+    400112: Right_Shoulder_OS_controller
+    400114: Right_Toe_Tip
+    400116: Right_Toes
+    400118: Right_Wrist
+    400120: Right_Wrist_Controller
+    400122: Right_wrist_end
+    400124: Right_Wrist_OS_Controller
+    400126: Solid_snake_lichaam:pCube19
+    400128: Spine_1
+    400130: Spine_2
+    400132: transform1
+    400134: transform2
+    400136: transform3
+    400138: transform4
+    400140: transform5
+    400142: transform6
+    2300000: pCylinder2 1
+    3300000: pCylinder2 1
+    4300000: Solid_snake_lichaam:pCube19
+    4300002: pCylinder2
+    9500000: //RootNode
+    13700000: Solid_snake_lichaam:pCube19
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

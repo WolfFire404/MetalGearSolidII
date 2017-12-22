@@ -17,7 +17,7 @@ public class Switch : MonoBehaviour
 	{
 		while (CheckSwitcher) {
 			spriteRenderer.enabled = !spriteRenderer.enabled;
-			yield return new WaitForSeconds(0.2f);
+			yield return new WaitForSeconds(0.15f);
 		}
 	}
 }
