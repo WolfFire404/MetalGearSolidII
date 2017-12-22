@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 3e47fcbb9e830a748ab7f78875b7f13d
-timeCreated: 1513952372
+guid: be6c093a49066904e85bdebcd9c4e4e4
+timeCreated: 1513958097
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -33,61 +33,50 @@ ModelImporter:
     100050: Left_Wrist_OS_Controller
     100052: Master
     100054: Neck
-    100056: pasted__Chest
-    100058: pasted__Hips_Sway
-    100060: pasted__Master
-    100062: pasted__Right_Arm_Controllers
-    100064: pasted__Right_Clavicle
-    100066: pasted__Right_Elbow
-    100068: pasted__Right_Elbow_Controller
-    100070: pasted__Right_Elbow_OS_controller
-    100072: pasted__Right_Shoulder
-    100074: pasted__Right_Shoulder_Controller
-    100076: pasted__Right_Shoulder_OS_controller
-    100078: pasted__Right_Wrist
-    100080: pasted__Right_Wrist_Controller
-    100082: pasted__Right_wrist_end
-    100084: pasted__Right_Wrist_OS_Controller
-    100086: pasted__Spine_1
-    100088: pasted__Spine_2
-    100090: pCube1
-    100092: pCube3
-    100094: pCube4
-    100096: pCube5
-    100098: pCylinder1
-    100100: pCylinder2
-    100102: pCylinder2 1
-    100104: Right_Ankle
-    100106: Right_Arm_Controllers
-    100108: Right_Clavicle
-    100110: Right_Elbow
-    100112: Right_Elbow_Controller
-    100114: Right_Elbow_OS_controller
-    100116: Right_Hand
-    100118: Right_Hip
-    100120: Right_Knee
-    100122: Right_Knee_Controller
-    100124: Right_Leg_IK_Handle
-    100126: Right_Leg_IK_Handle 1
-    100128: Right_Shoulder
-    100130: Right_Shoulder_Controller
-    100132: Right_Shoulder_OS_controller
-    100134: Right_Toe_Tip
-    100136: Right_Toes
-    100138: Right_Wrist
-    100140: Right_Wrist_Controller
-    100142: Right_wrist_end
-    100144: Right_Wrist_OS_Controller
-    100146: //RootNode
-    100148: Solid_snake_lichaam:pCube19
-    100150: Spine_1
-    100152: Spine_2
-    100154: transform1
-    100156: transform2
-    100158: transform3
-    100160: transform4
-    100162: transform5
-    100164: transform6
+    100056: pasted__Right_Arm_Controllers
+    100058: pasted__Right_Elbow_Controller
+    100060: pasted__Right_Elbow_OS_controller
+    100062: pasted__Right_Shoulder_Controller
+    100064: pasted__Right_Shoulder_OS_controller
+    100066: pasted__Right_Wrist_Controller
+    100068: pCube1
+    100070: pCube3
+    100072: pCube4
+    100074: pCube5
+    100076: pCylinder1
+    100078: pCylinder2
+    100080: pCylinder2 1
+    100082: Right_Ankle
+    100084: Right_Arm_Controllers
+    100086: Right_Clavicle
+    100088: Right_Elbow
+    100090: Right_Elbow_Controller
+    100092: Right_Elbow_OS_controller
+    100094: Right_Hand
+    100096: Right_Hip
+    100098: Right_Knee
+    100100: Right_Knee_Controller
+    100102: Right_Leg_IK_Handle
+    100104: Right_Leg_IK_Handle 1
+    100106: Right_Shoulder
+    100108: Right_Shoulder_Controller
+    100110: Right_Shoulder_OS_controller
+    100112: Right_Toe_Tip
+    100114: Right_Toes
+    100116: Right_Wrist
+    100118: Right_Wrist_Controller
+    100120: Right_wrist_end
+    100122: Right_Wrist_OS_Controller
+    100124: //RootNode
+    100126: Solid_snake_lichaam:pCube19
+    100128: Spine_1
+    100130: Spine_2
+    100132: transform1
+    100134: transform2
+    100136: transform3
+    100138: transform4
+    100140: transform5
+    100142: transform6
     400000: Chest
     400002: Gun
     400004: Head
@@ -116,61 +105,50 @@ ModelImporter:
     400050: Left_Wrist_OS_Controller
     400052: Master
     400054: Neck
-    400056: pasted__Chest
-    400058: pasted__Hips_Sway
-    400060: pasted__Master
-    400062: pasted__Right_Arm_Controllers
-    400064: pasted__Right_Clavicle
-    400066: pasted__Right_Elbow
-    400068: pasted__Right_Elbow_Controller
-    400070: pasted__Right_Elbow_OS_controller
-    400072: pasted__Right_Shoulder
-    400074: pasted__Right_Shoulder_Controller
-    400076: pasted__Right_Shoulder_OS_controller
-    400078: pasted__Right_Wrist
-    400080: pasted__Right_Wrist_Controller
-    400082: pasted__Right_wrist_end
-    400084: pasted__Right_Wrist_OS_Controller
-    400086: pasted__Spine_1
-    400088: pasted__Spine_2
-    400090: pCube1
-    400092: pCube3
-    400094: pCube4
-    400096: pCube5
-    400098: pCylinder1
-    400100: pCylinder2
-    400102: pCylinder2 1
-    400104: Right_Ankle
-    400106: Right_Arm_Controllers
-    400108: Right_Clavicle
-    400110: Right_Elbow
-    400112: Right_Elbow_Controller
-    400114: Right_Elbow_OS_controller
-    400116: Right_Hand
-    400118: Right_Hip
-    400120: Right_Knee
-    400122: Right_Knee_Controller
-    400124: Right_Leg_IK_Handle
-    400126: Right_Leg_IK_Handle 1
-    400128: Right_Shoulder
-    400130: Right_Shoulder_Controller
-    400132: Right_Shoulder_OS_controller
-    400134: Right_Toe_Tip
-    400136: Right_Toes
-    400138: Right_Wrist
-    400140: Right_Wrist_Controller
-    400142: Right_wrist_end
-    400144: Right_Wrist_OS_Controller
-    400146: //RootNode
-    400148: Solid_snake_lichaam:pCube19
-    400150: Spine_1
-    400152: Spine_2
-    400154: transform1
-    400156: transform2
-    400158: transform3
-    400160: transform4
-    400162: transform5
-    400164: transform6
+    400056: pasted__Right_Arm_Controllers
+    400058: pasted__Right_Elbow_Controller
+    400060: pasted__Right_Elbow_OS_controller
+    400062: pasted__Right_Shoulder_Controller
+    400064: pasted__Right_Shoulder_OS_controller
+    400066: pasted__Right_Wrist_Controller
+    400068: pCube1
+    400070: pCube3
+    400072: pCube4
+    400074: pCube5
+    400076: pCylinder1
+    400078: pCylinder2
+    400080: pCylinder2 1
+    400082: Right_Ankle
+    400084: Right_Arm_Controllers
+    400086: Right_Clavicle
+    400088: Right_Elbow
+    400090: Right_Elbow_Controller
+    400092: Right_Elbow_OS_controller
+    400094: Right_Hand
+    400096: Right_Hip
+    400098: Right_Knee
+    400100: Right_Knee_Controller
+    400102: Right_Leg_IK_Handle
+    400104: Right_Leg_IK_Handle 1
+    400106: Right_Shoulder
+    400108: Right_Shoulder_Controller
+    400110: Right_Shoulder_OS_controller
+    400112: Right_Toe_Tip
+    400114: Right_Toes
+    400116: Right_Wrist
+    400118: Right_Wrist_Controller
+    400120: Right_wrist_end
+    400122: Right_Wrist_OS_Controller
+    400124: //RootNode
+    400126: Solid_snake_lichaam:pCube19
+    400128: Spine_1
+    400130: Spine_2
+    400132: transform1
+    400134: transform2
+    400136: transform3
+    400138: transform4
+    400140: transform5
+    400142: transform6
     2300000: pCylinder2 1
     3300000: pCylinder2 1
     4300000: Solid_snake_lichaam:pCube19
@@ -222,7 +200,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
