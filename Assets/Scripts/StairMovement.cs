@@ -5,7 +5,7 @@ using UnityEngine;
 public class StairMovement : MonoBehaviour
 {
 
-    private Rigidbody rb;
+    private Rigidbody rb;    
 
     // Use this for initialization
     void Start()
@@ -26,14 +26,18 @@ public class StairMovement : MonoBehaviour
                 }
             }
         }
-
+        
         if (other.transform.tag == "stairDown")
         {
-
         }
         else
         {
             Physics.gravity = new Vector3(0, -10f * 10f, 0);
+
+            Debug.Log("touching stairs");
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+            }
         }
     }
 }
