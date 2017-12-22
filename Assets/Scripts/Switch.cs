@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Switch : MonoBehaviour 
 {
-	private MeshRenderer meshRenderer;
+	private SpriteRenderer spriteRenderer;
 	private bool CheckSwitcher = true;
 
 	void Start() 
 	{
-		meshRenderer = GetComponent<MeshRenderer> ();
+		spriteRenderer = GetComponent<SpriteRenderer> ();
 		StartCoroutine (Switcher ());
 	}
 	
 	IEnumerator Switcher()
 	{
 		while (CheckSwitcher) {
-			meshRenderer.enabled = !meshRenderer.enabled;
+			spriteRenderer.enabled = !spriteRenderer.enabled;
 			yield return new WaitForSeconds(0.2f);
 		}
 	}
