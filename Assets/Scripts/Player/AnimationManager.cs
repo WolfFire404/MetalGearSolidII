@@ -21,9 +21,9 @@ public class AnimationManager : MonoBehaviour
         anim.SetFloat("Speed", move);
 
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-        if (Input.GetKeyDown(KeyCode.A) && stateInfo.nameHash== runStateHash)
-        {
-            anim.SetTrigger(runHash);
-        }
+        //if (Input.GetKeyDown(KeyCode.A) && stateInfo.nameHash== runStateHash)
+        //{
+         //   anim.SetTrigger(runHash);
+       // }
     }
 }
